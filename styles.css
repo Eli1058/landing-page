@@ -11,3 +11,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.header{
+    display: flex;
+    background-color:#1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}

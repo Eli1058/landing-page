@@ -105,6 +105,9 @@ button{
 .card-image{
     height: 166px;
     width: 250px;
+    border: 8px solid #3882F6;
+    border-radius: 25px;
+
 }
 
 .section-3{

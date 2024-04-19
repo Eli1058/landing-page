@@ -10,6 +10,7 @@ body{
 .sections-container{
     display: flex;
     flex-direction: column;
+    flex:auto;
 }
 
 
@@ -30,12 +31,14 @@ a{
     flex-flow: column wrap;
     padding: 0px 300px;
     background-color: #1F2937;
+    flex: auto;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: auto;
 }
 
 .logo{
@@ -49,6 +52,7 @@ a{
     align-content: space-between;
     max-height: 350px;
     margin: 100px 0px;
+    flex: auto;
 }
 
 .sunset{
@@ -71,7 +75,36 @@ button{
 }
 
 .section-2{
-    background-color: whitesmoke;
+    display:flex; 
+    flex-direction: column;
+    flex: auto;
+    margin-bottom: 48px;
+}
+
+.info-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 48px 0px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;   
+    margin: 0px 164px;
+}
+
+.card{
+    display:flex;
+    flex-flow: column wrap;
+    max-width: 250px;
+    text-align: center;
+}
+
+.card-image{
+    height: 166px;
+    width: 250px;
 }
 
 .section-3{
